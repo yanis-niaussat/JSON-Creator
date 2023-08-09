@@ -1,0 +1,87 @@
+{
+    "name":"fr",
+    "settings" : {
+        "menu" : {
+            "files":{
+                "label":"Fichier",
+                "settings":{
+                    "open_file": {
+                        "value":"menuOpenFile",
+                        "label":"Ouvrir Fichier"
+                    },
+                    "open_directory": {
+                        "value":"menuOpenDirectory",
+                        "label":"Ouvrir Répertoire"
+                    },
+                    "new_file":{
+                        "value":"menuNewFile",
+                        "label":"Nouveau Fichier"
+                    },
+                    "save":{
+                        "value":"menuSave",
+                        "label":"Sauvgarder"
+                    },
+                    "save_as":{
+                        "value":"menuSaveAs",
+                        "label":"Sauvgarder Sous"
+                    },
+                    "settings":{
+                        "value":"menuSettings",
+                        "label":"Préférences"
+                    },
+                    "exit":{
+                        "value":"menuExit",
+                        "label":"Quitter"
+                    },
+                    "recent":{
+                        "label":"Fichier Récents",
+                        "settings":{},
+                        "order":[]
+                    }
+                },
+                "order":["new_file","sep","open_file","open_directory","sep","save","save_as","sep","settings","sep","exit"]
+            },
+            "edit" :{
+                "label":"Édition",
+                "settings":{
+                    "undo":{
+                        "label":"",
+                        "value":""
+                    },
+                    "redo":{
+                        "label":"",
+                        "value":""
+                    },
+                    "cut":{
+                        "label":"",
+                        "value":""
+                    },
+                    "copy":{
+                        "label":"",
+                        "value":""
+                    },
+                    "paste":{
+                        "label":"",
+                        "value":""
+                    }
+                },
+                "order":[]
+            },
+            "selection":{
+                "label":"Sélection",
+                "settings":{},
+                "order":[]
+            },
+            "view" :{
+                "label":"Affichage",
+                "settings":{},
+                "order":[]
+            }
+        }
+    },
+    "data":{
+        "preferences":{
+
+        }
+    }
+}
